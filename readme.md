@@ -1,3 +1,3 @@
 # Soundcloud Bot
 
-This is only a PoC
+This is only a Proof of Concept
