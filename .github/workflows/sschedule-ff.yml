@@ -1,7 +1,7 @@
 name: E2E in custom container
 on: 
   schedule:
-    - cron: "28,57 * * * *"
+    - cron: "28,33,49,57 * * * *"
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
