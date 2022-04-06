@@ -10,7 +10,16 @@ describe('My First Test', () => {
                 }
             })
 
-            cy.wait(58000 + Math.random() * 4000)
+            cy.wait(38000 + Math.random() * 4000)
+            
+            cy.visit('https://soundcloud.com/julianewolfmusic/juliane-wolf-dj-set-wilde-mohre-festival-2021-firletanz-wildschreck-17-07-2021?in=julianewolfmusic/sets/dj-sets', {
+                headers: {
+                    'user-agent': 'Opera/7.0 ' + Math.random(),
+                    'referrer': 'https://www.instagram.com',
+                }
+            })
+            
+            cy.wait(38000 + Math.random() * 4000)
         }
     })
 })
