@@ -1,4 +1,4 @@
-name: E2E in custom container
+name: Firefox
 on: 
   schedule:
     - cron: "3,11,28,33,49,57 * * * *"
