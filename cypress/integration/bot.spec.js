@@ -1,6 +1,6 @@
 describe('My First Test', () => {
     it('Does not do much!', () => {
-        for (let i = 0; i <= 7; i++) {
+        for (let i = 0; i <= 79; i++) {
 
             cy.visit('https://soundcloud.com/julianewolfmusic/juliane-wolf-sos-uground-kulturkosmos-larz-02042022', {
                 headers: {
