@@ -6,7 +6,7 @@ describe('My First Test', () => {
                     'user-agent': 'Opera/7.0 ' + Math.random(),
                     'referrer': 'https://www.facebook.com',
                 }
-            })
+            });
             cy.wait(60000 + Math.random() * 2000)
         }
     })
