@@ -8,7 +8,7 @@ describe('My First Test', () => {
                     'referrer': 'https://www.facebook.com',
                 }
             });
-            cy.wait(60000 * 30 + Math.random() * 6 * 60000);
+            cy.wait(60000 * 8 + Math.random() * 6 * 60000);
         }
     })
 })
