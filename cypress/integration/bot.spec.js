@@ -1,6 +1,6 @@
 describe('My First Test', () => {
     it('Does not do much!', () => {
-        for (let i = 0; i <= 6; i++) {
+        for (let i = 0; i <= 3; i++) {
             cy.visit('https://soundcloud.com/mariemontexier/marie-montexier-turmbuhne-at-fusion-festival-2022', {
             //cy.visit('https://soundcloud.com/andreas-henneberg/andreas-henneberg-at-fusion-festival-2022-turmbuhne', {
                 headers: {
