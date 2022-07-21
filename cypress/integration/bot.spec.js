@@ -1,6 +1,6 @@
 describe('My First Test', () => {
     it('Does not do much!', () => {
-        for (let i = 0; i <= 3; i++) {
+        for (let i = 0; i <= 9; i++) {
             cy.visit('https://soundcloud.com/mariemontexier/marie-montexier-turmbuhne-at-fusion-festival-2022', {
             //cy.visit('https://soundcloud.com/andreas-henneberg/andreas-henneberg-at-fusion-festival-2022-turmbuhne', {
                 headers: {
@@ -8,7 +8,7 @@ describe('My First Test', () => {
                     'referrer': 'https://www.facebook.com',
                 }
             });
-            cy.wait(60000*60 + Math.random() * 2000);
+            cy.wait(60000*34 + Math.random() * 2000);
         }
     })
 })
